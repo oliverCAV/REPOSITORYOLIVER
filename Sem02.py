@@ -31,6 +31,6 @@ if opcion == "Agregar Usuario":
         else:
             st.error("El nombre no puede estar vacío")
 
-elif opcion == "Mostrar Usuario":
+elif opcion == "Mostrar Usuarios":
     if st.button("Mostrar usuarios"):
         mostrar_usuarios();
